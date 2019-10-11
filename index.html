@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meme Generator</title>
+  <link rel="stylesheet" type="text/css" href="meme.css">
+</head>
+<body>
+<div class= "container">
+  <h1 id="memeHead">Make Your Own Memes!</h1>
+  <p>Upload an image & put in your text</p>
+    <input type="file" id="file" />  
+  </div>
+  <div id="imageContainer">
+    <canvas width="500" height="500" id="canvas"></canvas>
+    <div class = "inputs">
+      <br/>
+      <input id="topLineText" type="text" placeholder="TOP LINE"><br/>
+      <br/>
+      <input id="bottomLineText" type="text" placeholder="BOTTOM LINE"><br/>
+      <button id="saveButt">Save</button>
+    </div>
+  </div>
+  <script type="text/javascript" src="meme.js"></script>
+</body>
+</html>
